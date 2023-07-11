@@ -20,3 +20,11 @@ To remove task simply click the 🗑️ button and it will be removed from list
 
 SIDE NOTE:
 This is really basic and just something fun that I learned about online, it used the users localstorage to store the input information sent by user. There is no backend database that collects any information from any user.
+
+
+![examplepic1](https://github.com/roobynooby/to-do-list-google-extension/assets/104315028/44b8735c-a105-4b09-8f5b-3c9f71ce31c3)
+![examplepic2](https://github.com/roobynooby/to-do-list-google-extension/assets/104315028/4feb9bc3-215d-451a-81b5-941178f77064)
+![examplepic3](https://github.com/roobynooby/to-do-list-google-extension/assets/104315028/6b60675d-ffbc-4ecb-9f53-21d21056a102)
+![examplepic4](https://github.com/roobynooby/to-do-list-google-extension/assets/104315028/97aff09f-b373-4243-a071-3f099be389bd)
+
+
