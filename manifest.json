@@ -1,0 +1,13 @@
+{
+
+  "manifest_version": 3,
+  "name": "To Do list",
+  "version": "1.0",
+  "description": "A simple extension that lets users write a to do list",
+
+  "action": {
+    "default_icon": "list.png",
+    "default_popup": "popout.html"
+  }
+  
+}

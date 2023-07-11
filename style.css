@@ -1,0 +1,118 @@
+body{width:350px;}
+        .todo-items,
+        .todo-items li{
+            margin:0;
+            padding:0;
+            list-style-type: none;
+            font-size: 18px;
+        }
+        .todo-items li{
+            padding: 10px;
+            border-bottom: 2px solid grey;
+            display:flex;
+            justify-content: space-between;
+        }
+        .todo-items li:hover{
+            background:rgba(0,0,0,0.25);
+        }
+        /* after the tick is clicked, strikes a line across the task */
+        .todo-items li.done .item{
+            text-decoration: line-through;
+        }
+        .todo-items div span{
+            margin:5px;
+            font-size:1em;
+            cursor: pointer;
+        }
+        .new-item{
+            display: none;
+        }
+
+
+/* button hover effect (for add new tasks button) */
+
+        .create-todo {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 4px;
+            background-color: #747474;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 17px;
+            padding: 2px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+          }
+          
+          .create-todo span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+          }
+          
+          .create-todo span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+          }
+          
+          .create-todo:hover span {
+            padding-right: 25px;
+          }
+          
+          .create-todo:hover span:after {
+            opacity: 1;
+            right: 0;
+          }
+
+
+
+/* effect for save button (repeated effect from top css hover function)*/
+
+.saveButton {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    background-color: #858585;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    width: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .saveButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .saveButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .saveButton:hover span {
+    padding-right: 25px;
+  }
+  
+  .saveButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
