@@ -15,6 +15,7 @@ document.querySelector('.new-item button').addEventListener('click', function(){
     // storing into local storage
         var itemsStorage = localStorage.getItem('todo-items');
         var itemsArr = JSON.parse(itemsStorage);
+        itemsArr = itemsArr || [];
         itemsArr.push({"item":itemName, "status":0});
         saveItems(itemsArr);
         fetchItems();
