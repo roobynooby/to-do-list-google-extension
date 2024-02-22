@@ -19,7 +19,7 @@ To remove task simply click the 🗑️ button and it will be removed from list
 
 
 SIDE NOTE:
-This is really basic and just something fun that I learned about online, it used the users localstorage to store the input information sent by user. There is no backend database that collects any information from any user.
+This is really basic and just something fun that I learned about online, it uses the user's localstorage to store the input information sent by user. There is no backend database that collects any information from any user.
 
 
 ![examplepic1](https://github.com/roobynooby/to-do-list-google-extension/assets/104315028/44b8735c-a105-4b09-8f5b-3c9f71ce31c3)
